@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { UpdateService } from './update.service';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +6,5 @@ import { UpdateService } from './update.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(private update: UpdateService){}
   title = 'angularpwa';
 }
